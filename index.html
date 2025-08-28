@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PCP • Planejamento e Controle da Produção</title>
+  <meta name="description" content="Curso de PCP: Planejamento e Controle da Produção. Aprenda a otimizar processos, reduzir custos e aumentar a eficiência com visitas técnicas e prática." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="#top" aria-label="Página inicial">
+      <img src="assets/pcp-logo.svg" alt="Logo do Curso PCP" class="logo" />
+      <span class="brand-text">Curso <strong>PCP</strong></span>
+    </a>
+
+    <nav class="site-nav" aria-label="Navegação principal">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu">
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#abas">Conteúdos</a></li>
+        <li><a href="#visitas">Visitas Técnicas</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#inscricao" class="btn btn--primary">Inscreva-se</a></li>
+      </ul>
+    </nav>
+
+    <button class="mode-toggle" aria-label="Alternar tema">🌓</button>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero__text">
+        <h1>Planejamento e Controle da Produção</h1>
+        <p>Somos a turma do Terceiro ano do ensino médio futuramente formados!
+        </strong> Esperamos que vocês aprendam juntos com nós.</p>
+        <div class="hero__cta">
+          <a href="#inscricao" class="btn btn--primary">Quero saber mais.</a>
+          <a href="#abas" class="btn btn--ghost">Ver conteúdos</a>
+        </div>
+        <ul class="hero__bullets">
+          <li>Metodologias MRP, S&OP, Kanban e Lean</li>
+          <li>Indicadores (OEE, OTIF, Lead Time, Estoques)</li>
+          <li>Softwares e planilhas aplicadas ao PCP</li>
+        </ul>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <img src="assets/hero-illustration.svg" alt="" />
+      </div>
+    </section>
+
+    <section id="sobre" class="container section">
+      <header class="section__header">
+        <h2>Sobre Nós</h2>
+        <p>Somos estudantes do 3º ano B do Ensino Médio Técnico do Colégio Joaquim de Oliveira Franco (C.E.J.O.F.), e apresentamos neste espaço um breve relato sobre nossa trajetória e as características do nosso curso.</p>
+      </header>
+
+      <div class="grid two">
+        <article class="card">
+          <h3>Para quem é</h3>
+          <p>Profissionais de produção, logística, qualidade, engenharia e estudantes que desejam atuar com PCP ou elevar resultados na operação.</p>
+        </article>
+        <article class="card">
+          <h3>Resultados</h3>
+          <ul class="checklist">
+            <li>Redução de atrasos e rupturas</li>
+            <li>Melhor balanceamento de capacidade</li>
+            <li>Planejamento de materiais assertivo</li>
+            <li>Fluxo puxado e estoques enxutos</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="abas" class="container section">
+      <header class="section__header">
+        <h2>Conteúdos em Abas</h2>
+        <p>Edite os textos como quiser. As abas abaixo incluem os tópicos principais e você pode criar novas.</p>
+      </header>
+
+      <div class="tabs" role="tablist" aria-label="Conteúdos do Curso PCP">
+        <button class="tab is-active" role="tab" aria-selected="true" aria-controls="painel-aprender" id="tab-aprender">O que você vai aprender</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="painel-conteudo" id="tab-conteudo">Conteúdo Programático</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="painel-metodologia" id="tab-metodologia">Metodologia</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="painel-certificado" id="tab-certificado">Certificado</button>
+      </div>
+
+      <div class="tab-panels">
+        <section class="tab-panel is-active" id="painel-aprender" role="tabpanel" aria-labelledby="tab-aprender">
+          <ul class="bullets">
+            <li>Visão completa do PCP: demanda, capacidade e materiais</li>
+            <li>Planejamento Mestre de Produção (MPS) e MRP</li>
+            <li>S&OP: integração vendas-operações</li>
+            <li>Kanban, Heijunka, Just In Time e conceitos Lean</li>
+            <li>Indicadores: OEE, OTIF, Lead Time, giro de estoque</li>
+            <li>Simulação de cenários e priorização</li>
+            <li>Ferramentas: planilhas, softwares e dashboards</li>
+          </ul>
+        </section>
+
+        <section class="tab-panel" id="painel-conteudo" role="tabpanel" aria-labelledby="tab-conteudo">
+          <div class="grid two">
+            <article class="card">
+              <h3>Módulo 1 • Fundamentos</h3>
+              <ul>
+                <li>Estratégia de Operações e PCP</li>
+                <li>Tipos de processo e layout</li>
+                <li>Previsão de demanda</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Módulo 2 • Planejamento</h3>
+              <ul>
+                <li>MPS, capacidade finita e nivelamento</li>
+                <li>MRP e política de estoques</li>
+                <li>Calendários e lead times</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Módulo 3 • Execução</h3>
+              <ul>
+                <li>Sequenciamento, programação e priorização</li>
+                <li>Kanban, puxada e gestão de filas</li>
+                <li>Controle de produção e qualidade</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Módulo 4 • Performance</h3>
+              <ul>
+                <li>Indicadores, OEE, OTIF</li>
+                <li>Análise de gargalos (TOC)</li>
+                <li>Dashboards e rotina de gestão</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="painel-metodologia" role="tabpanel" aria-labelledby="tab-metodologia">
+          <p>Aulas ao vivo e gravadas, estudos de caso, exercícios práticos, plantões de dúvidas e <strong>visitas técnicas</strong> em empresas parceiras.</p>
+        </section>
+
+        <section class="tab-panel" id="painel-certificado" role="tabpanel" aria-labelledby="tab-certificado">
+          <p>Certificado de conclusão com carga horária e conteúdos cursados. Opcionalmente, projeto prático validado por banca.</p>
+        </section>
+      </div>
+    </section>
+
+    <section id="visitas" class="container section">
+      <header class="section__header">
+        <h2>Visitas Técnicas</h2>
+        <p>Conheça operações reais e veja o PCP funcionando na prática.</p>
+      </header>
+
+      <div class="grid three">
+        <article class="visit card">
+          <h3>Fábrica de Alimentos</h3>
+          <p>Fluxo contínuo, setup rápido e rastreabilidade por lote.</p>
+          <p class="tag">Em grupo</p>
+        </article>
+        <article class="visit card">
+          <h3>Indústria Metalúrgica</h3>
+          <p>Capacidade finita, mix alto e sequenciamento por restrições.</p>
+          <p class="tag">Opcional</p>
+        </article>
+        <article class="visit card">
+          <h3>Centro de Distribuição</h3>
+          <p>Gestão de estoques, WMS e alinhamento S&OP.</p>
+          <p class="tag">Em grupo</p>
+        </article>
+      </div>
+
+      <div class="note">
+        <p><strong>Observação:</strong> Locais podem variar conforme agenda e parcerias. Você pode editar os destinos e datas em <code>index.html</code>.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="container section">
+      <header class="section__header">
+        <h2>Perguntas frequentes</h2>
+      </header>
+      <details>
+        <summary>Preciso de conhecimento prévio?</summary>
+        <p>Não. Começamos do básico e avançamos rapidamente com prática.</p>
+      </details>
+      <details>
+        <summary>Como funcionam as aulas?</summary>
+        <p>Modelo híbrido: encontros ao vivo, gravações e materiais de apoio.</p>
+      </details>
+      <details>
+        <summary>Existe suporte?</summary>
+        <p>Sim. Canal exclusivo para dúvidas e revisão de exercícios.</p>
+      </details>
+    </section>
+
+    <section id="inscricao" class="container section">
+      <header class="section__header">
+        <h2>Inscreva-se</h2>
+        <p>Garanta sua vaga e receba o material de boas-vindas.</p>
+      </header>
+
+      <form class="card form" onsubmit="return handleSubmit(event)">
+        <div class="form__row">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required placeholder="Seu nome completo" />
+        </div>
+        <div class="form__row">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required placeholder="voce@exemplo.com" />
+        </div>
+        <div class="form__row">
+          <label for="telefone">Telefone/WhatsApp</label>
+          <input id="telefone" name="telefone" type="tel" placeholder="(xx) xxxxx-xxxx" />
+        </div>
+        <div class="form__row">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte suas expectativas"></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Enviar</button>
+        <p class="form__msg" id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__content">
+      <div class="brand brand--footer">
+        <img src="assets/pcp-logo.svg" alt="" class="logo" />
+        <span>Curso <strong>PCP</strong></span>
+      </div>
+      <nav aria-label="Links úteis">
+        <a href="#sobre">Sobre</a>
+        <a href="#abas">Conteúdos</a>
+        <a href="#visitas">Visitas</a>
+        <a href="#inscricao">Inscrição</a>
+      </nav>
+      <p class="small">© <span id="year"></span> Não foi feito pela turma de T.I. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
